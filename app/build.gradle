@@ -4,6 +4,9 @@ apply plugin: "androidx.navigation.safeargs"
 apply plugin: 'kotlin-kapt'
 apply from: 'sentry.gradle'
 
+apply plugin: 'kotlin-android-extensions'
+apply plugin: "androidx.navigation.safeargs.kotlin"
+
 def getGitHash = { ->
     def stdout = new ByteArrayOutputStream()
     exec {
