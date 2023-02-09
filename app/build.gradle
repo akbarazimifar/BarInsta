@@ -3,6 +3,8 @@ apply plugin: 'kotlin-android'
 apply plugin: "androidx.navigation.safeargs"
 apply plugin: 'kotlin-kapt'
 apply from: 'sentry.gradle'
+apply plugin: "androidx.navigation.safeargs.kotlin"
+
 
 apply plugin: 'kotlin-android-extensions'
 apply plugin: "androidx.navigation.safeargs.kotlin"
